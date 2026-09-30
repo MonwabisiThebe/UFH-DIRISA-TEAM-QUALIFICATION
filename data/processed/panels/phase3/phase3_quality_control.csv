@@ -1,0 +1,14 @@
+Check,Actual,Expected,Pass
+Master rows,164,164,True
+Duplicate MuniCode-Year keys,0,0,True
+Missing party-share joins,0,0,True
+Invalid turnout rows,0,0,True
+Invalid ENP rows,0,0,True
+Negative margin rows,0,0,True
+2000 rows,32,32,True
+2006 rows,33,33,True
+2011 rows,33,33,True
+2016 rows,33,33,True
+2021 rows,33,33,True
+2011+ rows with complete demographics,99,99,True
+Pre-2011 rows with demographics intentionally unavailable,65,65,True
