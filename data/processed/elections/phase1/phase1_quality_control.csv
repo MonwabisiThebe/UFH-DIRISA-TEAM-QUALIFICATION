@@ -1,0 +1,7 @@
+Check,ProblemRows
+Duplicate municipality-year rows,0
+Turnout outside 0–100,0
+ENP below 1,0
+Margin outside 0–100,0
+Top share outside 0–100,0
+Party-share groups not summing to 100,0
