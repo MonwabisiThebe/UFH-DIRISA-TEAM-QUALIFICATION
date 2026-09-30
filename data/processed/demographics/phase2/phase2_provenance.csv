@@ -1,0 +1,3 @@
+Dataset,Role,Geography,Years,HistoricalModelUse,Note
+EC CENSUS.csv,Provincial context,Eastern Cape province,"1996, 2001, 2011, 2022",No direct municipality features,No municipality identifier.
+clean_census.csv,Municipality historical demographic source currently in repository,33 harmonised municipalities,"2011, 2022",Yes,2011 observed; 2016/2021 interpolated. Upstream raw municipality source should be documented when available.

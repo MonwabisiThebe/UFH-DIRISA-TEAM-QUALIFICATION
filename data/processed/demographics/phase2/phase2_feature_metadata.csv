@@ -1,0 +1,11 @@
+Feature,Meaning,Status,CoreCandidate
+Pop,Population,Observed/interpolated,True
+U15,Population aged under 15 (%),Observed/interpolated,True
+O65,Population aged 65+ (%),Observed/interpolated,True
+Med,Median age,Observed/interpolated,True
+NoSch,No schooling (%),Observed/interpolated,True
+Matric,Matric (%),Observed/interpolated,True
+Higher,Higher education (%),Observed/interpolated,True
+Formal,Formal dwelling (%),Observed/interpolated,True
+Water,Water access (%),Observed/interpolated,True
+Elec,Electricity access (%),Observed/interpolated,True
