@@ -5,6 +5,7 @@ __pycache__/
 
 # Virtual environments
 .venv/
+.venv-1/
 venv/
 env/
 
@@ -19,3 +20,11 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Data generated during processing
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated reports/figures
+reports/figures/*
+!reports/figures/.gitkeep
