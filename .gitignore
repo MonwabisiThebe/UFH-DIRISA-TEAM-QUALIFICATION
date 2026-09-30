@@ -21,9 +21,8 @@ env/
 Thumbs.db
 desktop.ini
 
-# Data generated during processing
-data/processed/*
-!data/processed/.gitkeep
+# Generated standardized datasets
+data/processed/standardized_elections/
 
 # Generated reports/figures
 reports/figures/*
