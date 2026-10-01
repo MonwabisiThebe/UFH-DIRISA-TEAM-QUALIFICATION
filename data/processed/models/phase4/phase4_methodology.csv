@@ -1,0 +1,9 @@
+Item,Value
+Target,Municipality turnout percentage
+Primary holdout,2021
+Primary training years,"2011, 2016"
+Primary features,"PreviousTurnout_%, PreviousENP, PreviousMargin_pts, PreviousRegisteredVoters"
+Primary metric,MAE in percentage points
+Baseline,Previous election turnout
+Same-election leakage excluded,"ENP, margin, party shares, top share"
+Future demographic leakage excluded,Interpolated 2016/2021 demographic features not used in primary forecast
