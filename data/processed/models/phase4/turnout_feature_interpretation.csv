@@ -1,9 +1,0 @@
-Model,Feature,ImportanceOrCoefficient
-Ridge Regression,PreviousTurnout_%,1.8667779933847506
-Ridge Regression,PreviousENP,0.9758585359218299
-Ridge Regression,PreviousMargin_pts,-0.5411097395027744
-Ridge Regression,PreviousRegisteredVoters,-0.2577038562555685
-Random Forest,PreviousTurnout_%,0.3678965094916443
-Random Forest,PreviousENP,0.11484572604191083
-Random Forest,PreviousMargin_pts,0.16852688018577866
-Random Forest,PreviousRegisteredVoters,0.34873088428066634

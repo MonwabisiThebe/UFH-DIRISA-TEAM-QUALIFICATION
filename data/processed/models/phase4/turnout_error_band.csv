@@ -1,0 +1,5 @@
+Quantity,Value
+Selected relative model,Relative persistence
+"2021 test MAE, relative (pts)",2.083
+"MAE across all three folds, relative (pts)",2.626
+80% of historical absolute errors below (pts),3.788

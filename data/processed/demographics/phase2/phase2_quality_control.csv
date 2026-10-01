@@ -1,9 +1,6 @@
 Check,Actual,Expected,Pass
-Municipality Census rows,33,33,True
-Unique municipality codes,33,33,True
-Historical aligned rows,165,165,True
-2011 observed rows,33,33,True
-2016/2021 interpolated rows,66,66,True
-2000/2006 unavailable rows,66,66,True
-Current municipality rows,33,33,True
-Current unique municipality codes,33,33,True
+Descriptive rows (33 x 5 elections),165,165,True
+As-known rows (33 x 6 elections),198,198,True
+As-known values for 2011 or earlier,0,0,True
+As-known 2016/2021 rows using Census 2011,66,66,True
+As-known 2026 rows using Census 2022,33,33,True

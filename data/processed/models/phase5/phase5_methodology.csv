@@ -1,11 +1,8 @@
 Item,Value
-Target,Municipal PR party vote-share swing
-Training transition,2011 to 2016
-Historical holdout,2016 to 2021
-Categories,"ANC, DA, EFF, UDM, ATM, OTHER"
-Primary metric,MAE in percentage points
-Baseline 1,No change from previous election
-Baseline 2,Average historical swing
-Candidate models,Linear Regression; Ridge Regression; Random Forest
-Composition constraint,Clip at zero and normalise predicted categories to 100%
-Interpretation,Historical model backtest; not a future-election forecast
+Target,"Municipal PR vote share by category (ANC, DA, EFF, UDM, ATM, OTHER), via swing"
+Validation,"Rolling origin: folds 2011 and 2016 validation, 2021 test"
+Selection rule,"Per party, lowest mean validation MAE where the party existed; otherwise No change"
+Selected methods,ANC: No change; DA: No change; EFF: No change; UDM: No change; ATM: No change; OTHER: Random forest
+Composition,"Clip at 0, rescale to 100% per municipality"
+2021 test overall MAE,2.686 pts (No change: 2.928)
+2021 leader identified,33/33 (No change: 33/33)

@@ -1,7 +1,10 @@
-Check,ProblemRows
-Duplicate municipality-year rows,0
-Turnout outside 0–100,0
-ENP below 1,0
-Margin outside 0–100,0
-Top share outside 0–100,0
-Party-share groups not summing to 100,0
+Check,Actual,Expected,Pass
+Observations,164,164,True
+Duplicate municipality-year rows,0,0,True
+Turnout outside 0-100,0,0,True
+ENP below 1,0,0,True
+Margin outside 0-100,0,0,True
+Party-share groups not summing to 100,0,0,True
+Selected-party table rows not summing to 100,0,0,True
+2016/2021 registered voters differing from IEC,0,0,True
+Map units not equal to analytical codes,0,0,True

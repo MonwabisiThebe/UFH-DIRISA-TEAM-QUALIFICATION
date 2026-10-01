@@ -1,0 +1,7 @@
+Party,SelectedMethod,MeanValidationMAE,ValidationFolds,Reason
+ANC,No change,6.055540239715266,2,Lowest mean validation MAE (2011 and 2016 folds)
+DA,No change,4.2849473959719395,2,Lowest mean validation MAE (2011 and 2016 folds)
+EFF,No change,,0,No validation fold: party absent from the previous election; default rule
+UDM,No change,1.3845827996774747,2,Lowest mean validation MAE (2011 and 2016 folds)
+ATM,No change,,0,No validation fold: party absent from the previous election; default rule
+OTHER,Random forest,3.898701483906299,2,Lowest mean validation MAE (2011 and 2016 folds)

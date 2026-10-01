@@ -1,5 +1,8 @@
-streamlit>=1.40
-pandas>=2.0
-numpy>=1.26
+# Minimal set for deploying the dashboard on its own (e.g. Streamlit Community Cloud).
+# The processed outputs in data/processed/ must be present.
+streamlit>=1.46
 plotly>=5.20
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.4
 statsmodels>=0.14

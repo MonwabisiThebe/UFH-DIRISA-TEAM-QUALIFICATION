@@ -1,8 +1,7 @@
-Check,Passed,Detail
-33 municipalities in final scenario,True,33
-Unique municipality codes,True,33
-Turnout scenario within 0-100,True,all rows
-Party scenario shares sum to 100,True,"min=100.000000, max=100.000000"
-Party scenario shares non-negative,True,all rows
-Selected Phase 5 methods available,True,"{'ANC': 'Random Forest', 'ATM': 'No Change Baseline', 'DA': 'No Change Baseline', 'EFF': 'Average Swing Baseline', 'OTHER': 'Random Forest', 'UDM': 'No Change Baseline'}"
-Turnout scenario implements selected Phase 4 method,True,Average Change Baseline
+Check,Actual,Expected,Pass
+Municipalities,33,33,True
+Turnout outside 0-100,0,0,True
+Validated shares not summing to 100,0,0,True
+Trend shares not summing to 100,0,0,True
+Negative shares,0,0,True
+Repeat-2021 turnout differs from observed 2021 (persistence check),0,0,True

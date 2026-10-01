@@ -1,3 +1,4 @@
-Dataset,Role,Geography,Years,HistoricalModelUse,Note
-EC CENSUS.csv,Provincial context,Eastern Cape province,"1996, 2001, 2011, 2022",No direct municipality features,No municipality identifier.
-clean_census.csv,Municipality historical demographic source currently in repository,33 harmonised municipalities,"2011, 2022",Yes,2011 observed; 2016/2021 interpolated. Upstream raw municipality source should be documented when available.
+Dataset,Geography,Years,Role,Note
+clean_census.csv,33 analytical municipalities,"Census 2011, Census 2022",Municipal demographic context,Upstream source not recorded in the repository; unverified (docs/DATA_SOURCES.md)
+EC CENSUS.csv,Buffalo City metro (not province),"1996, 2001, 2011, 2022",Illustration only,2022 total equals BUF population; not used as provincial evidence
+ec_registration_2026.csv,33 municipalities,2026,Optional: expected votes in scenarios,Not yet collected

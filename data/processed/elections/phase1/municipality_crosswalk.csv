@@ -1,15 +1,15 @@
-HistoricalCode,TargetCode
-EC05B2,EC442
-EC05B3,EC441
-EC103,EC101
-EC107,EC101
-EC125,BUF
-EC127,EC129
-EC128,EC129
-EC132,EC139
-EC133,EC139
-EC134,EC139
-EC143,EC145
-EC144,EC145
-EC151,EC443
-EC152,EC444
+HistoricalCode,TargetCode,TargetMunicipality
+EC125,BUF,Buffalo City
+EC103,EC101,Dr Beyers Naude
+EC107,EC101,Dr Beyers Naude
+EC127,EC129,Raymond Mhlaba
+EC128,EC129,Raymond Mhlaba
+EC132,EC139,Enoch Mgijima
+EC133,EC139,Enoch Mgijima
+EC134,EC139,Enoch Mgijima
+EC143,EC145,Walter Sisulu
+EC144,EC145,Walter Sisulu
+EC05B3,EC441,Matatiele
+EC05B2,EC442,Umzimvubu
+EC151,EC443,Winnie Madikizela-Mandela
+EC152,EC444,Ntabankulu

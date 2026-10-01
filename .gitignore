@@ -1,29 +1,22 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
+.pytest_cache/
 
 # Virtual environments
 .venv/
-.venv-1/
 venv/
 env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE
+# IDE / OS
 .idea/
 .vscode/
-
-# Operating system
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Generated standardized datasets
-data/processed/standardized_elections/
-
-# Generated reports/figures
-reports/figures/*
-!reports/figures/.gitkeep
+# Figures ARE committed (the slides use them). Data outputs are committed so the
+# dashboard runs without re-running the pipeline.

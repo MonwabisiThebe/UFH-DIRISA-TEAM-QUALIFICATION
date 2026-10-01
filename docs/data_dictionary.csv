@@ -1,0 +1,30 @@
+File,Column,Meaning,Unit
+municipality_election_panel_2000_2021.csv,MuniCode,Analytical municipality code (33 present-day units),code
+municipality_election_panel_2000_2021.csv,Year,Local Government Election year,year
+municipality_election_panel_2000_2021.csv,RegisteredVoters,"Registered voters, counted once per voting district",persons
+municipality_election_panel_2000_2021.csv,ValidVotes,Valid PR-ballot votes (sum of party votes),votes
+municipality_election_panel_2000_2021.csv,SpoiltVotes,"Spoilt PR ballots, counted once per voting district",votes
+municipality_election_panel_2000_2021.csv,VotesCast,ValidVotes + SpoiltVotes,votes
+municipality_election_panel_2000_2021.csv,Turnout_%,100 x VotesCast / RegisteredVoters,%
+municipality_election_panel_2000_2021.csv,SpoiltRate_%,100 x SpoiltVotes / VotesCast,%
+municipality_election_panel_2000_2021.csv,TopShare_%,PR share of the largest party,%
+municipality_election_panel_2000_2021.csv,Margin_pts,Largest minus second-largest PR share,percentage points
+municipality_election_panel_2000_2021.csv,ENP,"Effective number of parties, 1/sum(p_i^2), full party distribution",parties
+municipality_election_panel_2000_2021.csv,NumberOfParties,Parties receiving PR votes in the municipality,count
+municipality_election_panel_2000_2021.csv,Previous*,Same quantity in the previous LGE for that municipality,various
+municipality_election_panel_2000_2021.csv,RegistrationGrowth_%,Change in registered voters since the previous LGE,%
+party_shares_selected_wide_2000_2021.csv,"ANC, DA, EFF, UDM, ATM",PR vote share of each named party,%
+party_shares_selected_wide_2000_2021.csv,OTHER,100 minus the five named parties,%
+master_panel_2000_2021.csv,ProvincialLevel_%,Unweighted mean municipal turnout in that election,%
+master_panel_2000_2021.csv,RelativeTurnout_pts,Turnout_% minus ProvincialLevel_%,percentage points
+master_panel_2000_2021.csv,"Prev_<party>, Swing_<party>",Previous-election share and change in share,% / points
+master_panel_2000_2021.csv,"Pop, U15, O65, Med, NoSch, Matric, Higher, Formal, Water, Elec","Census indicators, DESCRIPTIVE policy (2011 observed; 2016/2021 interpolated to 2022)",various
+master_panel_2000_2021.csv,K_<indicator>,"Census indicators, AS-KNOWN policy (latest census published before the election)",various
+municipality_scenarios_2026.csv,Relative_2026_pts,Modelled relative turnout position for 2026 (relative persistence),percentage points
+municipality_scenarios_2026.csv,Turnout_<Scenario>_%,Scenario turnout = assumed provincial level + Relative_2026_pts,%
+municipality_scenarios_2026.csv,TurnoutBand_pts,80th percentile of historical absolute municipal errors (excludes provincial-level uncertainty),percentage points
+municipality_scenarios_2026.csv,ExpectedVotes_<Scenario>,Scenario turnout x registered voters (basis in RegistrationBasis),votes
+municipality_scenarios_2026.csv,<party>_Validated_%,PR share under the validated methods (status quo),%
+municipality_scenarios_2026.csv,<party>_Trend_%,PR share if each party's 2016-2021 swing repeats (not validated),%
+municipality_scenarios_2026.csv,Validated_Leader / Gap_pts / Status,"Largest category, lead over runner-up, and 'Too close to call' if lead < 2 x party MAE",category / points
+municipality_scenarios_2026.csv,SwingNeeded_pts,Uniform swing from leader to runner-up that would change the largest category,percentage points

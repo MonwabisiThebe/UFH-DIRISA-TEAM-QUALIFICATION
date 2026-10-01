@@ -1,0 +1,6 @@
+Model,MeanValidationMAE
+Relative persistence,2.8978352884130922
+Shrunk persistence,3.0644346836479053
+Random forest,3.1080331903144454
+Ridge regression,3.3122644334072255
+Provincial average (no municipal pattern),3.482858250398488

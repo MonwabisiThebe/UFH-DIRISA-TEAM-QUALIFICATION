@@ -1,10 +1,10 @@
 Item,Value
-Scenario year,2026
-Geography,33 harmonised Eastern Cape municipalities
-Turnout central method,Average Change Baseline
-Turnout historical average change,-0.479 pts
-Turnout sensitivity,± historical 2021 MAE (7.725 pts)
-Party methods,ANC: Random Forest; DA: No Change Baseline; EFF: Average Swing Baseline; UDM: No Change Baseline; ATM: No Change Baseline; OTHER: Random Forest
-Party sensitivity,± historical overall MAE (2.502 pts)
-Demographics,"2022 municipality data used as contextual descriptors, not causal/model predictors"
-Interpretation,"Model-based scenarios, not known election outcomes"
+Nature of outputs,"Model-based scenarios, not forecasts or known results"
+Turnout,Assumed provincial level + municipal relative position (Relative persistence)
+Turnout levels,Repeat of 2021 conditions: 48.03%; Partial recovery (half the 2021 drop regained): 52.13%; Return to 2016 participation: 56.23%
+Turnout band,±3.79 pts = 80th percentile of historical absolute municipal errors (excludes level uncertainty)
+Party support,ANC: No change; DA: No change; EFF: No change; UDM: No change; ATM: No change; OTHER: Random forest; refit on all transitions 2006-2021
+Party alternative,Trend continues: repeat 2016->2021 mean swing per party (not validated)
+Too close to call,Lead < 2 x 2021 test MAE (5.37 pts)
+Registered voters,2021 registered voters (placeholder until the 2026 snapshot is added)
+Not modelled,"Parties founded after 2021, coalitions, candidates, campaigns, 2024 NPE results"

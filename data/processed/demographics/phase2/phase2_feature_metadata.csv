@@ -1,11 +1,11 @@
-Feature,Meaning,Status,CoreCandidate
-Pop,Population,Observed/interpolated,True
-U15,Population aged under 15 (%),Observed/interpolated,True
-O65,Population aged 65+ (%),Observed/interpolated,True
-Med,Median age,Observed/interpolated,True
-NoSch,No schooling (%),Observed/interpolated,True
-Matric,Matric (%),Observed/interpolated,True
-Higher,Higher education (%),Observed/interpolated,True
-Formal,Formal dwelling (%),Observed/interpolated,True
-Water,Water access (%),Observed/interpolated,True
-Elec,Electricity access (%),Observed/interpolated,True
+Feature,Meaning,Descriptive use,Model use
+Pop,Population,"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+U15,Population aged under 15 (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+O65,Population aged 65+ (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+Med,Median age (years),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+NoSch,Adults with no schooling (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+Matric,Adults with matric (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+Higher,Adults with higher education (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+Formal,Households in formal dwellings (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+Water,Households with piped water (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026
+Elec,Households with electricity (%),"Observed 2011, interpolated 2016/2021",Census 2011 for 2016/2021 targets; Census 2022 for 2026

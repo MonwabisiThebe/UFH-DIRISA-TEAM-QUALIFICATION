@@ -1,0 +1,101 @@
+Section,Metric,Value,Source,Note
+Data,Municipality-election observations,164,elections/phase1/municipality_election_panel_2000_2021.csv,
+Data,Municipalities in 2000,32,elections/phase1/municipality_election_panel_2000_2021.csv,
+Data,Municipalities in 2006,33,elections/phase1/municipality_election_panel_2000_2021.csv,
+Data,Municipalities in 2011,33,elections/phase1/municipality_election_panel_2000_2021.csv,
+Data,Municipalities in 2016,33,elections/phase1/municipality_election_panel_2000_2021.csv,
+Data,Municipalities in 2021,33,elections/phase1/municipality_election_panel_2000_2021.csv,
+IEC validation,2016: municipalities with registered voters equal to IEC,33,elections/phase1/validation_iec_official_municipal.csv,
+IEC validation,2016: mean absolute turnout difference vs IEC (pts),0.32,elections/phase1/validation_iec_official_municipal.csv,
+IEC validation,2021: municipalities with registered voters equal to IEC,33,elections/phase1/validation_iec_official_municipal.csv,
+IEC validation,2021: mean absolute turnout difference vs IEC (pts),0.31,elections/phase1/validation_iec_official_municipal.csv,
+IEC validation,2000: provincial registered-voter gap vs IEC,55674,elections/phase1/validation_iec_official_province.csv,Umzimkulu (EC05b1) excluded: moved to KwaZulu-Natal in 2006
+IEC validation,2006: provincial registered-voter gap vs IEC,2470,elections/phase1/validation_iec_official_province.csv,District Management Area voters (district ballot only) excluded
+IEC validation,2011: provincial registered-voter gap vs IEC,0,elections/phase1/validation_iec_official_province.csv,Exact match
+IEC validation,2016: provincial registered-voter gap vs IEC,0,elections/phase1/validation_iec_official_province.csv,Exact match
+IEC validation,2021: provincial registered-voter gap vs IEC,0,elections/phase1/validation_iec_official_province.csv,Exact match
+Participation,2000: mean municipal turnout (%),56.3,panels/phase3/provincial_summary_by_year.csv,
+Participation,2000: registered-voter-weighted turnout (%),56.16,panels/phase3/provincial_summary_by_year.csv,
+Competition,2000: mean parties contesting,3.34,panels/phase3/provincial_summary_by_year.csv,
+Competition,2000: mean effective number of parties,1.62,panels/phase3/provincial_summary_by_year.csv,
+Participation,2006: mean municipal turnout (%),57.19,panels/phase3/provincial_summary_by_year.csv,
+Participation,2006: registered-voter-weighted turnout (%),56.33,panels/phase3/provincial_summary_by_year.csv,
+Competition,2006: mean parties contesting,4.88,panels/phase3/provincial_summary_by_year.csv,
+Competition,2006: mean effective number of parties,1.46,panels/phase3/provincial_summary_by_year.csv,
+Participation,2011: mean municipal turnout (%),58.03,panels/phase3/provincial_summary_by_year.csv,
+Participation,2011: registered-voter-weighted turnout (%),57.86,panels/phase3/provincial_summary_by_year.csv,
+Competition,2011: mean parties contesting,5.88,panels/phase3/provincial_summary_by_year.csv,
+Competition,2011: mean effective number of parties,1.58,panels/phase3/provincial_summary_by_year.csv,
+Participation,2016: mean municipal turnout (%),56.23,panels/phase3/provincial_summary_by_year.csv,
+Participation,2016: registered-voter-weighted turnout (%),56.17,panels/phase3/provincial_summary_by_year.csv,
+Competition,2016: mean parties contesting,7.06,panels/phase3/provincial_summary_by_year.csv,
+Competition,2016: mean effective number of parties,1.76,panels/phase3/provincial_summary_by_year.csv,
+Participation,2021: mean municipal turnout (%),48.03,panels/phase3/provincial_summary_by_year.csv,
+Participation,2021: registered-voter-weighted turnout (%),46.36,panels/phase3/provincial_summary_by_year.csv,
+Competition,2021: mean parties contesting,10.15,panels/phase3/provincial_summary_by_year.csv,
+Competition,2021: mean effective number of parties,2.0,panels/phase3/provincial_summary_by_year.csv,
+Participation,Municipalities with lower turnout in 2021 than 2016,33,panels/phase3/municipality_turnout_change.csv,
+Participation,Smallest fall 2016-2021 (pts),-4.3,panels/phase3/municipality_turnout_change.csv,
+Participation,Largest fall 2016-2021 (pts),-17.7,panels/phase3/municipality_turnout_change.csv,
+Participation,Mean change 2016-2021 (pts),-8.2,panels/phase3/municipality_turnout_change.csv,
+Participation,Lowest turnout 2021,King Sabata Dalindyebo 39.4%,panels/phase3/master_panel_2000_2021.csv,
+Participation,Highest turnout 2021,Kouga 57.0%,panels/phase3/master_panel_2000_2021.csv,
+Associations,U15: within-election r [95% CI],"-0.45 [-0.59, -0.27]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.13; by year -0.47/-0.52/-0.34
+Associations,O65: within-election r [95% CI],"+0.35 [+0.16, +0.51]",panels/phase3/turnout_associations_2011_2021.csv,pooled +0.06; by year +0.02/+0.40/+0.59
+Associations,Med: within-election r [95% CI],"+0.50 [+0.34, +0.64]",panels/phase3/turnout_associations_2011_2021.csv,pooled +0.06; by year +0.46/+0.60/+0.46
+Associations,Matric: within-election r [95% CI],"+0.31 [+0.11, +0.48]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.15; by year +0.36/+0.42/+0.13
+Associations,Higher: within-election r [95% CI],"+0.09 [-0.12, +0.28]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.06; by year +0.15/+0.15/-0.03
+Associations,NoSch: within-election r [95% CI],"-0.33 [-0.50, -0.14]",panels/phase3/turnout_associations_2011_2021.csv,pooled +0.00; by year -0.40/-0.41/-0.12
+Associations,Water: within-election r [95% CI],"+0.47 [+0.30, +0.61]",panels/phase3/turnout_associations_2011_2021.csv,pooled +0.18; by year +0.59/+0.53/+0.20
+Associations,Elec: within-election r [95% CI],"+0.28 [+0.09, +0.46]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.20; by year +0.34/+0.36/-0.01
+Associations,Formal: within-election r [95% CI],"+0.40 [+0.21, +0.55]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.00; by year +0.46/+0.47/+0.17
+Associations,Pop: within-election r [95% CI],"-0.16 [-0.35, +0.04]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.13; by year -0.06/-0.04/-0.40
+Associations,Margin_pts: within-election r [95% CI],"-0.46 [-0.60, -0.28]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.22; by year -0.57/-0.54/-0.21
+Associations,ENP: within-election r [95% CI],"+0.22 [+0.02, +0.41]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.15; by year +0.43/+0.36/-0.02
+Associations,NumberOfParties: within-election r [95% CI],"-0.24 [-0.42, -0.04]",panels/phase3/turnout_associations_2011_2021.csv,pooled -0.46; by year -0.25/-0.07/-0.38
+Associations,Variables whose pooled sign differs from within-election sign,"Matric, Higher, NoSch, Elec, Formal, ENP",panels/phase3/turnout_associations_2011_2021.csv,
+Associations,R2: Election year only,0.508,panels/phase3/turnout_regression_r2.csv,
+Associations,"R2: Election year + age, services, competition",0.629,panels/phase3/turnout_regression_r2.csv,
+Associations,"Relative-turnout persistence r, 2000->2006",0.32,panels/phase3/turnout_persistence.csv,
+Associations,"Relative-turnout persistence r, 2006->2011",0.27,panels/phase3/turnout_persistence.csv,
+Associations,"Relative-turnout persistence r, 2011->2016",0.83,panels/phase3/turnout_persistence.csv,
+Associations,"Relative-turnout persistence r, 2016->2021",0.77,panels/phase3/turnout_persistence.csv,
+Turnout model,"Selected relative model (validation folds 2011, 2016 only)",Relative persistence,models/phase4/turnout_model_selection.csv,
+Turnout model,Mean validation MAE: Relative persistence,2.9,models/phase4/turnout_model_selection.csv,
+Turnout model,Mean validation MAE: Shrunk persistence,3.06,models/phase4/turnout_model_selection.csv,
+Turnout model,Mean validation MAE: Random forest,3.11,models/phase4/turnout_model_selection.csv,
+Turnout model,Mean validation MAE: Ridge regression,3.31,models/phase4/turnout_model_selection.csv,
+Turnout model,Mean validation MAE: Provincial average (no municipal pattern),3.48,models/phase4/turnout_model_selection.csv,
+Turnout model,Locked 2021 test: relative-pattern MAE (pts),2.08,models/phase4/turnout_relative_scores.csv,
+Turnout model,Locked 2021 test: relative-pattern r,0.77,models/phase4/turnout_relative_scores.csv,
+Turnout model,Locked 2021 test: absolute turnout MAE (pts),8.2,models/phase4/turnout_full_scores.csv,includes the province-wide 2021 fall
+Turnout model,"Locked 2021 test: absolute mean error (pts, + = too high)",8.2,models/phase4/turnout_full_scores.csv,
+Turnout model,"Provincial-average baseline, 2021 relative MAE (pts)",2.98,models/phase4/turnout_relative_scores.csv,
+Turnout model,"Census check (train 2016, test 2021): Electoral history only MAE",1.9,models/phase4/turnout_census_check.csv,
+Turnout model,"Census check (train 2016, test 2021): Electoral history + Census 2011 MAE",2.1,models/phase4/turnout_census_check.csv,
+Turnout model,"Census check (train 2016, test 2021): Census 2011 only MAE",3.16,models/phase4/turnout_census_check.csv,
+Turnout model,"Census check (train 2016, test 2021): Relative persistence (reference) MAE",2.08,models/phase4/turnout_census_check.csv,
+Turnout model,"Municipal error band, 80th percentile (pts)",3.788,models/phase4/turnout_error_band.csv,
+Party model,Selected methods,ANC: No change; DA: No change; EFF: No change; UDM: No change; ATM: No change; OTHER: Random forest,models/phase5/party_selected_methods.csv,
+Party model,Locked 2021: Selected by validation (used for 2026): overall MAE,2.69,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: Selected by validation (used for 2026): overall RMSE,4.02,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: Selected by validation (used for 2026): largest party correct,33/33,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: No change for every party (baseline): overall MAE,2.93,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: No change for every party (baseline): overall RMSE,4.47,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: No change for every party (baseline): largest party correct,33/33,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: Last swing for every party (trend continues): overall MAE,3.18,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: Last swing for every party (trend continues): overall RMSE,4.59,models/phase5/party_backtest_summary.csv,
+Party model,Locked 2021: Last swing for every party (trend continues): largest party correct,31/33,models/phase5/party_backtest_summary.csv,
+Party model,"Comparison only (selected on 2021, not a locked test): prototype overall MAE",2.5,models/phase5/party_backtest_summary.csv,
+Party model,"Comparison only (selected on 2021, not a locked test): prototype largest party correct",32/33,models/phase5/party_backtest_summary.csv,
+Scenarios,"Assumed provincial level, repeat of 2021 (%)",48.03,scenarios/phase6/municipality_scenarios_2026.csv,"assumption, not a forecast"
+Scenarios,"Expected votes cast, repeat of 2021",1508103,scenarios/phase6/municipality_scenarios_2026.csv,2021 registered voters (placeholder until the 2026 snapshot is added)
+Scenarios,"Assumed provincial level, partial recovery (%)",52.13,scenarios/phase6/municipality_scenarios_2026.csv,"assumption, not a forecast"
+Scenarios,"Expected votes cast, partial recovery",1641551,scenarios/phase6/municipality_scenarios_2026.csv,2021 registered voters (placeholder until the 2026 snapshot is added)
+Scenarios,"Assumed provincial level, return to 2016 (%)",56.23,scenarios/phase6/municipality_scenarios_2026.csv,"assumption, not a forecast"
+Scenarios,"Expected votes cast, return to 2016",1775001,scenarios/phase6/municipality_scenarios_2026.csv,2021 registered voters (placeholder until the 2026 snapshot is added)
+Scenarios,Validated status quo: municipalities with ANC largest,31,scenarios/phase6/municipality_scenarios_2026.csv,
+Scenarios,Validated status quo: municipalities with DA largest,2,scenarios/phase6/municipality_scenarios_2026.csv,
+Scenarios,Validated status quo: too close to call,Nelson Mandela Bay (gap 0.48),scenarios/phase6/municipality_scenarios_2026.csv,
+Scenarios,Next closest municipality: swing needed (pts),Dr Beyers Naude 3.62,scenarios/phase6/municipality_scenarios_2026.csv,
+Scenarios,Trend-continues: largest-party counts,"ANC 31, DA 2",scenarios/phase6/municipality_scenarios_2026.csv,

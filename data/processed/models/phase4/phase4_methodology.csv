@@ -1,9 +1,9 @@
 Item,Value
-Target,Municipality turnout percentage
-Primary holdout,2021
-Primary training years,"2011, 2016"
-Primary features,"PreviousTurnout_%, PreviousENP, PreviousMargin_pts, PreviousRegisteredVoters"
-Primary metric,MAE in percentage points
-Baseline,Previous election turnout
-Same-election leakage excluded,"ENP, margin, party shares, top share"
-Future demographic leakage excluded,Interpolated 2016/2021 demographic features not used in primary forecast
+Target,Municipal turnout = provincial level + relative position
+Modelled component,Relative position (points above/below provincial mean)
+Validation,"Rolling origin: folds 2011 and 2016 validation, 2021 test"
+Selection rule,Lowest mean validation MAE; decided before inspecting 2021
+Selected model,Relative persistence
+Predictors,"PreviousRelative_pts, PreviousENP, PreviousMargin_pts, LogPreviousRegistered (all from the previous election)"
+Leakage controls,No same-election outcomes; no 2022 census in any backtest; no random splits
+Provincial level,Not validated as forecastable; treated as a scenario assumption
