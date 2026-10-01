@@ -1,0 +1,11 @@
+Item,Value
+Target,Municipal PR party vote-share swing
+Training transition,2011 to 2016
+Historical holdout,2016 to 2021
+Categories,"ANC, DA, EFF, UDM, ATM, OTHER"
+Primary metric,MAE in percentage points
+Baseline 1,No change from previous election
+Baseline 2,Average historical swing
+Candidate models,Linear Regression; Ridge Regression; Random Forest
+Composition constraint,Clip at zero and normalise predicted categories to 100%
+Interpretation,Historical model backtest; not a future-election forecast
